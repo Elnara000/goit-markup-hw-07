@@ -353,18 +353,8 @@ img {
       -ms-flex-pack: center;
           justify-content: center;
   height: 70px;
-  background-color: var(--hero-bgd-transparent);
-}
-.dealings__item:first-child .dealings__thumb {
-  padding-left: calc(50% - 78px);
-  padding-right: calc(50% - 78px);
-}
-.dealings__item:nth-child(2) .dealings__thumb {
   width: 100%;
-}
-.dealings__item:last-child .dealings__thumb {
-  padding-left: calc(50% - 91px);
-  padding-right: calc(50% - 90px);
+  background-color: var(--hero-bgd-transparent);
 }
 
 .dealings__desc {
