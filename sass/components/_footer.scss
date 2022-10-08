@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--background-footer);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__container {
+    display: flex;
+    align-items: baseline;
+}
+
+.footer__contacts {
+    margin-right: 70px;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}

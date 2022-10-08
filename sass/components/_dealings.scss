@@ -1,0 +1,61 @@
+.dealings {
+    padding-top: 0;
+    background-color: var(--white-text-color);
+}
+
+.dealings__title {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+}
+
+.dealings__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dealings__item {
+    position: relative;
+}
+
+
+.dealings__thumb {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 70px;
+    background-color: var(--hero-bgd-transparent);
+
+    .dealings__item:first-child & {
+        padding-left: calc(50% - 78px);
+        padding-right: calc(50% - 78px);
+    }
+    
+    .dealings__item:nth-child(2) & {
+        padding-left: calc(50% - 72.07px);
+        padding-right: calc(50% - 72.07px);
+    }
+    
+    .dealings__item:last-child & {
+        padding-left: calc(50% - 91px);
+        padding-right: calc(50% - 90px);
+    }
+}
+
+.dealings__desc {
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--white-text-color);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+}
