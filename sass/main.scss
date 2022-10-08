@@ -2,6 +2,12 @@
 @import './base/container';
 @import './base/reset';
 
+
+@import './utils/colors';
+@import './utils/mixins';
+@import './utils/visually-hidden';
+
+
 @import './components/header';
 @import './components/logo';
 @import './components/section';
@@ -18,10 +24,4 @@
 @import './components/modal';
 @import './components/register-form';
 @import './components/portfolio';
-
-@import './utils/colors';
-@import './utils/mixins';
-@import './utils/visually-hidden';
-
-
 
